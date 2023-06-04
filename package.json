@@ -15,11 +15,13 @@
     "@material-ui/lab": "^4.0.0-alpha.61",
     "framer-motion": "^6.2.6",
     "pdfreader": "^1.2.14",
+    "prismjs": "^1.29.0",
     "react": "^18.2.0",
     "react-awesome-button": "^6.5.1",
     "react-dom": "^18.2.0",
     "react-loader-spinner": "^5.1.2",
     "react-responsive": "^9.0.0-beta.6",
+    "react-syntax-highlighter": "^15.5.0",
     "react-tabs": "^3.2.3"
   },
   "devDependencies": {
