@@ -21,7 +21,7 @@ const useStyles = makeStyles({
 function Console() {
   const classes = useStyles();
   return (
-    <Box style={{ }}>
+    <Box style={{}}>
       <Box style={{ display: "flex", padding: 10 }}>
         <Box style={{ display: "flex", padding: 10 }}>
           <FindInPageIcon style={{ fontSize: '20' }} />
@@ -36,8 +36,10 @@ function Console() {
       <Grid container>
         <Grid xs={4}>
           <Box style={{ padding: 10 }}>
-            <Typography variant='subtitle1' style={{ color: COLORS.textColor, fontSize: 13 }}>Refresh</Typography>
-            <Refresh style={{ fontSize: '20', marginLeft: 5, marginBottom: 10 }} />
+            <Box style={{ display: "flex" }}>
+              <Typography variant='subtitle1' style={{ color: COLORS.textColor, fontSize: 13 }}>Refresh</Typography>
+              <Refresh style={{ fontSize: '20', marginLeft: 5, marginBottom: 10 }} />
+            </Box>
             <TreeView
               className={classes.root}
               defaultCollapseIcon={<ExpandMoreIcon />}
