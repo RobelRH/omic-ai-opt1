@@ -12,7 +12,7 @@ import DenseTable from './ConsoleTable';
 
 const useStyles = makeStyles({
   root: {
-    height: 240,
+    // height: 240,
     flexGrow: 1,
     maxWidth: 400,
   },
@@ -21,7 +21,7 @@ const useStyles = makeStyles({
 function Console() {
   const classes = useStyles();
   return (
-    <Box style={{ height: "34vh" }}>
+    <Box style={{ }}>
       <Box style={{ display: "flex", padding: 10 }}>
         <Box style={{ display: "flex", padding: 10 }}>
           <FindInPageIcon style={{ fontSize: '20' }} />

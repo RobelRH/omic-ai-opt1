@@ -23,7 +23,7 @@ const CodeRun = () => {
                 <Button style={{ height: 30, color: COLORS.White, textTransform: "none", backgroundColor: COLORS.BtnBGSecondary }}>Save</Button>
             </Box>
             <Divider style={{ backgroundColor: COLORS.ListHighlightColor }} />
-            <SyntaxHighlighter language="sql" style={darcula} showLineNumbers={true} customStyle={{ backgroundColor: COLORS.SecondaryA }}>
+            <SyntaxHighlighter language="sql" style={darcula} showLineNumbers={true} customStyle={{ fontSize: 13, backgroundColor: COLORS.SecondaryA }}>
                 {codeString}
             </SyntaxHighlighter>
         </ Box>

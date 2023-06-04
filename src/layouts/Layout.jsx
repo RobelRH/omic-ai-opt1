@@ -38,8 +38,8 @@ const Layout = () => {
                                 container
                                 direction='column'
                             >
-                                <Grid item xs={12} style={{ height: "100%" }}>
-                                    <Grid container>
+                                <Grid item xs={12} >
+                                    <Grid container style={{ height: "49vh" }}>
                                         <Grid item xs={8} >
                                             <CodeRun />
                                         </Grid>
@@ -49,7 +49,7 @@ const Layout = () => {
                                         </Grid>
                                     </Grid>
                                 </Grid>
-                                <Grid item xs={12} style={{height: "50vh", backgroundColor: COLORS.primaryB, color: COLORS.textColor }}>
+                                <Grid item xs={12} style={{ backgroundColor: COLORS.primaryB, color: COLORS.textColor }}>
                                     <Console />
                                 </Grid>
                             </Grid>

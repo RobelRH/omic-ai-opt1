@@ -3,7 +3,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Grid, Typography } from '@material-ui/core';
 import Share from '../pages/Share';
 import FileList from '../components/FileList';
-// import NestedTree from '../test';
 
 const useStyles = makeStyles((theme) => ({
     content: {
